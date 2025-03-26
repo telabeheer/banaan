@@ -1,0 +1,12 @@
+--Instellen van Git op je computer (bash)
+git config --global user.name "telabeheer"
+git config --global user.email "telabeheer@outlook.com"
+
+--Koppelen aan je computer (bash) - maak een lokale map (op pc) van online repo
+git clone https://github.com/telabeheer/mijn-repo-naam.git
+
+--Bestand toevoegen aan repo
+- navigeer naar repo met 
+cd mijn-repo-naam
+- maak nieuw bestand 
+echo 'print("Hallo GitHub!")' > hello.py
